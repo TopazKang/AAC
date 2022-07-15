@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/goodmorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="goodmorning"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="34dp" />
+
+        <Button
+            android:id="@+id/comfortable_night"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="comfortable_night"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="87dp" />
+
+        <Button
+            android:id="@+id/uncomfortable_night"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="uncomfortable_night"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="141dp" />
+
+        <Button
+            android:id="@+id/sleep_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sleep_time"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="193dp" />
+
+        <Button
+            android:id="@+id/weather_sleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weather_sleep"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="243dp" />
+
+        <Button
+            android:id="@+id/weather_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weather_1"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="292dp" />
+
+        <Button
+            android:id="@+id/stroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stroll"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="338dp" />
+
+        <Button
+            android:id="@+id/read_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="read_book"
+            tools:layout_editor_absoluteX="245dp"
+            tools:layout_editor_absoluteY="278dp" />
+
+        <Button
+            android:id="@+id/call_to_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="call_to_other"
+            tools:layout_editor_absoluteX="245dp"
+            tools:layout_editor_absoluteY="230dp" />
+
+        <Button
+            android:id="@+id/have_plan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="have_plan"
+            tools:layout_editor_absoluteX="246dp"
+            tools:layout_editor_absoluteY="36dp" />
+
+        <Button
+            android:id="@+id/lunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lunch"
+            tools:layout_editor_absoluteX="246dp"
+            tools:layout_editor_absoluteY="83dp" />
+
+        <Button
+            android:id="@+id/today_ending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="today_ending"
+            tools:layout_editor_absoluteX="246dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <Button
+            android:id="@+id/good_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="good_word"
+            tools:layout_editor_absoluteX="245dp"
+            tools:layout_editor_absoluteY="326dp" />
+
+    </LinearLayout>
+
+</ScrollView>

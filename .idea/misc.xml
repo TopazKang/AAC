@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_adoptable_problem.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_call_to_other.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_clean_manual.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_comfortable_night.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_daylight_problem.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_good_word.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_goodmorning.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_have_plan.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_lunch.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_lunch_problem.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_main.xml" value="0.35688405797101447" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_medical.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_plan_problem.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_problem.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_rain_sleep.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_read_book.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_seekbar_today.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_sleep_problem.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_sleep_time.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_stroll.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_today_ending.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_uncomfortable_night.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_weather1.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_weather_sleep.xml" value="0.34739583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.aac">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AAC"
+        tools:targetApi="31">
+        <activity
+            android:name=".clean_manual"
+            android:exported="false" />
+        <activity
+            android:name=".adoptable_problem"
+            android:exported="false" />
+        <activity
+            android:name=".lunch_problem"
+            android:exported="false" />
+        <activity
+            android:name=".sleep_problem"
+            android:exported="false" />
+        <activity
+            android:name=".daylight_problem"
+            android:exported="false" />
+        <activity
+            android:name=".medical"
+            android:exported="false" />
+        <activity
+            android:name=".good_word"
+            android:exported="false" />
+        <activity
+            android:name=".seekbar_today"
+            android:exported="false" />
+        <activity
+            android:name=".today_ending"
+            android:exported="false" />
+        <activity
+            android:name=".lunch"
+            android:exported="false" />
+        <activity
+            android:name=".have_plan"
+            android:exported="false" />
+        <activity
+            android:name=".call_to_other"
+            android:exported="false" />
+        <activity
+            android:name=".read_book"
+            android:exported="false" />
+        <activity
+            android:name=".stroll"
+            android:exported="false" />
+        <activity
+            android:name=".weather_1"
+            android:exported="false" />
+        <activity
+            android:name=".rain_sleep"
+            android:exported="false" />
+        <activity
+            android:name=".sleep_time"
+            android:exported="false" />
+        <activity
+            android:name=".uncomfortable_night"
+            android:exported="false" />
+        <activity
+            android:name=".comfortable_night"
+            android:exported="false" />
+        <activity
+            android:name=".goodmorning"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
