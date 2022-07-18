@@ -22,7 +22,7 @@ public class sleep_time extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_uncomfortable_night);
+        setContentView(R.layout.activity_sleep_time);
 
         short_sleep = (TextView) findViewById(R.id.short_sleep);
         ok = findViewById(R.id.ok);

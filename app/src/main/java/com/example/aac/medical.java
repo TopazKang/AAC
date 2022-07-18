@@ -9,6 +9,7 @@ import android.speech.tts.TextToSpeech;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Locale;
 
@@ -64,37 +65,26 @@ public class medical extends AppCompatActivity {
         body.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),MainActivity.class);
-                startActivity(intent);
-                //가슴과 복부쪽이 아프다는걸 전송
-                finish();
+                Toast.makeText(getApplicationContext(), "서비스 예정 중 입니다.", Toast.LENGTH_SHORT).show();
             }
         });
         right_arm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),MainActivity.class);
-                startActivity(intent);
-                //팔이 아프다는걸 전송
-                finish();
+                Toast.makeText(getApplicationContext(), "서비스 예정 중 입니다.", Toast.LENGTH_SHORT).show();
             }
         });
         left_arm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),MainActivity.class);
-                startActivity(intent);
-                //팔이 아프다는걸 전송
-                finish();
+                Toast.makeText(getApplicationContext(), "서비스 예정 중 입니다.", Toast.LENGTH_SHORT).show();
             }
         });
         leg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),MainActivity.class);
-                startActivity(intent);
-                //하반신이 아프다는걸 전송
-                finish();
+                Toast.makeText(getApplicationContext(), "서비스 예정 중 입니다.", Toast.LENGTH_SHORT).show();
+
             }
         });
     }

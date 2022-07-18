@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         have_plan= findViewById(R.id.have_plan); //계획있는데 갈거야? plan_yes/no (일과질문1)
         lunch= findViewById(R.id.lunch); //점심 먹었어? (일과질문2)
         today_ending= findViewById(R.id.today_ending); //오늘 하루는 어땠어?(선택지 2개) (저녁질문1)
-        seekbar_today= findViewById(R.id.seekbar_today); //오늘 하루는 어땠어?(시크바) (저녁질문2)
+        //seekbar_today= findViewById(R.id.seekbar_today); //오늘 하루는 어땠어?(시크바) (저녁질문2)
         good_word= findViewById(R.id.good_word); //명언(따봉 효과) (저녁추천)
         //medical (완) (건강체크) 머리/팔/몸통/다리
         //sleep_problem (취침 문제파악) 주거지/몸

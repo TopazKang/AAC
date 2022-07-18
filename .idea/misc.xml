@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/drawable/ic_baseline_accessibility_new_24.xml" value="0.274" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/drawable/ic_head.xml" value="0.274" />
         <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_adoptable_problem.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_call_to_other.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_clean_manual.xml" value="0.34739583333333335" />
@@ -11,6 +13,7 @@
         <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_good_word.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_goodmorning.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_have_plan.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_in_plan.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_lunch.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_lunch_problem.xml" value="0.34739583333333335" />
         <entry key="..\:/Users/kjh14/AndroidStudioProjects/AAC/app/src/main/res/layout/activity_main.xml" value="0.35688405797101447" />

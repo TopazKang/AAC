@@ -27,6 +27,7 @@ public class call_to_other extends AppCompatActivity {
         call= findViewById(R.id.call);
         call_text= findViewById(R.id.call_text);
 
+
         tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int status) {
