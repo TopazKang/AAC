@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/heart"
+    tools:context=".hbp_bad">
+
+    <TextView
+        android:id="@+id/hbp_bad_title"
+        android:layout_width="340dp"
+        android:layout_height="79dp"
+        android:gravity="center"
+        android:text="혈압 올바르게 재는 법"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#DFDDDD"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:id="@+id/hbp_bad_content"
+        android:layout_width="340dp"
+        android:layout_height="521dp"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center_vertical"
+        android:text="1. 규칙적으로 운동해주기.\n2. 짜게 먹지 않기.\n3.과도한 음주와 흡연 멈추기.\n4.설탕은 줄이고 칼슘과 마그네슘 섭취하기."
+        android:textColor="#DFDDDD"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+
+    <Button
+        android:id="@+id/hbp_bad_button"
+        style="?borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

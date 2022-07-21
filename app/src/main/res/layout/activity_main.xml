@@ -115,6 +115,42 @@
             tools:layout_editor_absoluteX="245dp"
             tools:layout_editor_absoluteY="326dp" />
 
+        <Button
+            android:id="@+id/diabetes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="diabetes" />
+
+        <Button
+            android:id="@+id/nail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nail" />
+
+        <Button
+            android:id="@+id/hbp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hbp" />
+
+        <Button
+            android:id="@+id/ingredient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ingredient" />
+
+        <Button
+            android:id="@+id/house"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="house" />
+
+        <Button
+            android:id="@+id/bedding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bedding" />
+
     </LinearLayout>
 
 </ScrollView>

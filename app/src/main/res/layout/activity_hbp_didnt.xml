@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blood_pressure1"
+    tools:context=".hbp_didnt">
+
+    <TextView
+        android:id="@+id/hbp_test_title"
+        android:layout_width="340dp"
+        android:layout_height="79dp"
+        android:gravity="center"
+        android:text="혈압 올바르게 재는 법"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#DFDDDD"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:id="@+id/hbp_test_content"
+        android:layout_width="340dp"
+        android:layout_height="521dp"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center_vertical"
+        android:text="•주의사항:\n 등을 기대고 앉아서 팔은 심장 높이에\n위치시키고 두 발이 바닥에 닿게 한다. 팔은 책상위에 힘이 들어가지 않게 하여 살짝 얹은 상태로 유지한다. \n\n•혈압 측정법:\n1. 측정 전 최소 5분간 안정한다.\n2. 1~2분 간격을 두고 적어도 2번 이상 혈압을 측정한다.\n3.양팔의 혈압을 측정후, 혈압 수치가 높은 팔을 다시 측정한다.\n4.부정맥인 경우 3번 이상 측정하여 평균을 구한다."
+        android:textColor="#DFDDDD"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+
+    <Button
+        android:id="@+id/hbp_test"
+        style="?borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

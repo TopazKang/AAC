@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bedding_dry"
+    android:background="@drawable/bedding_dry1">
+
+    <TextView
+        android:id="@+id/dry_title"
+        android:layout_width="340dp"
+        android:layout_height="79dp"
+        android:gravity="center"
+        android:text="침구류 건조"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#DFDDDD"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:id="@+id/dry_content"
+        android:layout_width="340dp"
+        android:layout_height="521dp"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center_vertical"
+        android:text="침구류는 습하지 않고 맑은 날 정오에 햇볕이 잘 드는 자리에 넓게 펼쳐서   자연 건조시켜주세요."
+        android:textColor="#DFDDDD"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+
+    <Button
+        android:id="@+id/dry"
+        style="?borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

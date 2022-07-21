@@ -23,6 +23,12 @@ public class MainActivity extends AppCompatActivity {
     Button today_ending;
     Button seekbar_today;
     Button good_word;
+    Button diabetes;
+    Button nail;
+    Button hbp;
+    Button bedding;
+    Button ingredient;
+    Button house;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +53,12 @@ public class MainActivity extends AppCompatActivity {
         //sleep_problem (취침 문제파악) 주거지/몸
         //daylight_problem(활동 문제파악) 상담/몸
         //adoptable_problem (상황에 따라 자유롭게 문제파악)
+        diabetes =findViewById(R.id.diabetes);
+        nail =findViewById(R.id.nail);
+        hbp =findViewById(R.id.hbp);
+        bedding =findViewById(R.id.bedding);
+        ingredient= findViewById(R.id.ingredient);
+        house = findViewById(R.id.house);
 
 
         goodmorning.setOnClickListener(new View.OnClickListener() {
@@ -161,6 +173,54 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), good_word.class);
                 startActivity(intent);
+            }
+        });
+        diabetes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(),diabetes.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        hbp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(),hbp.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        nail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(),nail.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        bedding.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(),bedding.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ingredient.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(),ingredient.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        house.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(),house.class);
+                startActivity(intent);
+                finish();
             }
         });
 

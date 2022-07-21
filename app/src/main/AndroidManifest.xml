@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.aac">
+    package="com.example.aac" >
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,58 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AAC"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+        <activity
+            android:name=".hbp_level_test"
+            android:exported="false" />
+        <activity
+            android:name=".house_problem"
+            android:exported="false" />
+        <activity
+            android:name=".house"
+            android:exported="false" />
+        <activity
+            android:name=".ingredient"
+            android:exported="false" />
+        <activity
+            android:name=".bedding_dry"
+            android:exported="false" />
+        <activity
+            android:name=".bedding_wash"
+            android:exported="false" />
+        <activity
+            android:name=".bedding_old"
+            android:exported="false" />
+        <activity
+            android:name=".bedding"
+            android:exported="false" />
+        <activity
+            android:name=".nail_long"
+            android:exported="false" />
+        <activity
+            android:name=".nail"
+            android:exported="false" />
+        <activity
+            android:name=".hbp_bad"
+            android:exported="false" />
+        <activity
+            android:name=".hbp_didnt"
+            android:exported="false" />
+        <activity
+            android:name=".hbp"
+            android:exported="false" />
+        <activity
+            android:name=".diabetes_bad"
+            android:exported="false" />
+        <activity
+            android:name=".diabetes_didnt"
+            android:exported="false" />
+        <activity
+            android:name=".diabetes_level_test"
+            android:exported="false" />
+        <activity
+            android:name=".diabetes"
+            android:exported="false" />
         <activity
             android:name=".clean_manual"
             android:exported="false" />
@@ -75,7 +126,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

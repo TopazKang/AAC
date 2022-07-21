@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nail1"
+    tools:context=".nail_long">
+
+    <TextView
+        android:id="@+id/nail_title"
+        android:layout_width="340dp"
+        android:layout_height="79dp"
+        android:gravity="center"
+        android:text="손•발톱 관리하기"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#DFDDDD"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:id="@+id/nail_content"
+        android:layout_width="340dp"
+        android:layout_height="521dp"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center_vertical"
+        android:text="손톱과 발톱이 길면 깨지거나 피부에 스쳐서 상처가 날 수 있으니, 지금 정리하는게 어떨까요?"
+        android:textColor="#DFDDDD"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+
+    <Button
+        android:id="@+id/nail_button"
+        style="?borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

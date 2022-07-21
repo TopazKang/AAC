@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diabetes1"
+    tools:context=".diabetes_bad">
+
+    <TextView
+        android:id="@+id/diabetes_title"
+        android:layout_width="340dp"
+        android:layout_height="79dp"
+        android:gravity="center"
+        android:text="혈당 수치가 높다면"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#DFDDDD"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:id="@+id/diabetes_content"
+        android:layout_width="340dp"
+        android:layout_height="521dp"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center_vertical"
+        android:text="•흰밥이나 흰빵보다는 잡곡밥과 통밀빵\n  을 먹는 것이 좋다.\n•채소류, 해조류 등 식이섬유소 함량이 \n  높은 식품을먹는다  \n•주스보다는 생과일과 생채소 형태로 \n  그중에서도 당도가 높은 것은 피하도록 \n  한다. \n•식후 1시간 동안은 운동하도록 한다."
+        android:textColor="#DFDDDD"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+
+    <Button
+        android:id="@+id/diabetes"
+        style="?borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
